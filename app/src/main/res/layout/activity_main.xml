@@ -24,7 +24,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.083"
-            tools:text="Modern Android app" />
+            tools:text="@{repository.repositoryName}" />
 
     <TextView
             android:id="@+id/repository_has_issues"
